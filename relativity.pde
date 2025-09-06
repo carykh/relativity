@@ -2,7 +2,7 @@ import com.hamoid.*;
 String VIDEO_FILENAME = "cary_video_test.mp4";
 boolean SAVE_VIDEO = true;
 VideoExport videoExport;
-String IMAGE_FOLDER = "BlockyImages";
+String IMAGE_FOLDER = "SlapImages";
 
 int LEN = 301;
 int PEOPLE_COUNT = 5;
@@ -45,7 +45,7 @@ void setup(){
   for(int i = 0; i < LEN; i++){
     
     // Firey + Coiny 0.8c slap
-    /*paths[0][i] = 4.8;
+    paths[0][i] = 4.8;
     paths[1][i] = 5.2;
     paths[4][i] = 5;
     if(i > 100){
@@ -53,7 +53,7 @@ void setup(){
       paths[1][i] = 5.2+0.08*(i-100);
     }
     paths[2][i] = 5-0.1*(i-100);
-    paths[3][i] = 5+0.1*(i-100);*/
+    paths[3][i] = 5+0.1*(i-100);
     
     
     
