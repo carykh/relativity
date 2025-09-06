@@ -3,3 +3,5 @@ Source code for my Special Relativity Visualizer from 2016: https://www.youtube.
 ![ta-da](0108.png)
 
 How to run this: Install Processing 4, download the files, open "relativity.pde", click Play, and BOOM there you go!
+
+My 2025 commentary on this project: https://www.youtube.com/watch?v=YwtioIyQiJ8
