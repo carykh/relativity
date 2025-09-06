@@ -2,7 +2,7 @@ import com.hamoid.*;
 String VIDEO_FILENAME = "cary_video_test.mp4";
 boolean SAVE_VIDEO = true;
 VideoExport videoExport;
-String IMAGE_FOLDER = "SlapImages";
+String IMAGE_FOLDER = "BlockyImages";
 
 int LEN = 301;
 int PEOPLE_COUNT = 5;
@@ -43,7 +43,9 @@ void setup(){
     imgs[i] = loadImage(IMAGE_FOLDER+"/person"+i+".png");
   }
   for(int i = 0; i < LEN; i++){
-    paths[0][i] = 4.8;
+    
+    // Firey + Coiny 0.8c slap
+    /*paths[0][i] = 4.8;
     paths[1][i] = 5.2;
     paths[4][i] = 5;
     if(i > 100){
@@ -51,17 +53,11 @@ void setup(){
       paths[1][i] = 5.2+0.08*(i-100);
     }
     paths[2][i] = 5-0.1*(i-100);
-    paths[3][i] = 5+0.1*(i-100);
-    
-    /*if(i < 70){
-      paths[0][i] = 7;
-    }else if(i <= 100){
-      paths[0][i] = 7-pow(i-70,2)/60*0.07;
-    }else{
-      paths[0][i] = 5.95-(i-100)*0.07;
-    }*/
+    paths[3][i] = 5+0.1*(i-100);*/
     
     
+    
+    // Blocky + Eraser 1-light-year bar that shortens when it moves fast
     /*if(i < 50){
       paths[0][i] = 5;
     }else if(i < 62.5){
@@ -82,6 +78,8 @@ void setup(){
     paths[2][i] = 8;
     paths[3][i] = 17-i*0.1;
     paths[4][i] = -2+i*0.1;*/
+    
+    // i don't remember what this one was for.
     /*paths[5][i] = 12-i*0.1;
     if(i < 30){
       paths[0][i] = 5.6;
@@ -89,7 +87,7 @@ void setup(){
       paths[0][i] = paths[5][i]-3.4*pow(0.971,i-30);
     }*/
     /*paths[1][i] = 13-paths[1][i]*1.4;
-    //paths[0][i] = paths[1][i]-1;
+    paths[0][i] = paths[1][i]-1;
     paths[2][i] = 7.5;
     paths[3][i] = 7;
     paths[4][i] = 5+i*0.1;*/
